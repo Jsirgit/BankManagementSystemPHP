@@ -1,0 +1,134 @@
+
+body {
+  background-image: linear-gradient(
+              rgba(35,43,56,0.9),
+              rgba(35,43,56,0.9)
+              ),url(image/img9.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.container-fluid{
+    background-color:  #282C35;
+}
+.container-fluid .navbar-brand{
+  color: white;
+  font-size: 30px;
+  font-family: "Comic Sans MS";
+}
+.container-fluid img{
+  height: 70px;
+  width: 70px;
+}
+.navbar-nav{
+  margin-left: 400px;
+}
+.navbar-nav .nav-item{
+  padding: 5px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+.container-fluid .navbar-brand{
+  color: white;
+  font-size: 32px;
+  font-family: "Comic Sans MS";          
+}
+.container-fluid img{
+  height: 70px;
+  width: 70px;
+}
+.navbar-nav{
+  margin-left: 400px;
+}
+.navbar-nav .nav-item{
+  padding: 5px;
+  margin-right: 20px;
+  font-size: 17px;
+}
+
+.data{
+  display: flex;
+  margin-left: 80px;
+}
+h2{
+    color:white;
+    margin-top: 180px;
+    font-family: "Comic Sans MS";
+    font-size: 37px;
+}
+p{
+  color: white;
+  font-size: 18px;
+}
+.img{
+  margin-top: 80px;
+}
+.img img{
+  margin-left: 50px;
+  height: 500px;
+  width: 550px;
+}
+.button{
+  background-color: transparent;
+  border:3px solid white;
+  height: 50px;
+  width: 170px;
+  color: white;
+  border-radius: 30px;
+  font-size: 20px;
+}
+.button:hover{
+  background-color: white;
+  color: black;
+  border:2px solid black;
+}
+
+footer .footer{
+  background-color: black;
+  height: 40px; 
+  margin-top: 60px;
+  color: white;
+  text-align: center;
+  padding-top: 7px;
+}
+footer .footer p{
+  margin-bottom: -1px;
+}
+button {
+  height: 50px;
+  width: 170px;
+  font-size: 20px;
+  background: transparent;
+  color: #fff;
+  border: 3px solid white;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+}
+button:hover {
+  color: black;
+  border-radius: 30px;
+}
+button::after {
+  content: "";
+  background: #ecf0f1;
+  position: absolute;
+  z-index: -1;
+  border-radius: 30px;
+}
+button[class^="grow"]::after {
+  transition: all 0.4s ease;
+}
+button[class^="grow"]:hover::after {
+  transition: all 0.4s ease-out;
+}
+button.grow_spin::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transform: scale(0, 0) rotate(-180deg);
+}
+button.grow_spin:hover::after {
+  transform: scale(1, 1) rotate(0deg);
+}
